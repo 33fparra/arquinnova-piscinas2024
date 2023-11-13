@@ -1,0 +1,91 @@
+{
+  "TextoIdioma": "Español",
+  "navbar1": "Inicio",
+  "navbar2": "Nosotros",
+  "navbar3": "Experiencia",
+  "navbar4": "Precios",
+  "navbar5": "Mi cuenta",
+  "navbar6": "Registrate",
+
+  "slider1-text1": "Una completa",
+  "slider1-text2": "AVENTURA",
+  "slider1-text3": "para tus visitantes",
+  "comienza":"Comienza",
+  "nosotros":"nosotros",
+
+  "slider2-text1" : "Conviertete en el mejor",
+  "slider2-text2" : "ANFITRION",
+  "slider2-text3" : "de tu zona",
+  "comienza2":"Comienza",
+  "nosotros2":"nosotros",
+
+  "slider3-text1" : "Conviertete en el mejor",
+  "slider3-text2" : "ANFITRION",
+  "slider3-text3" : "de tu zona",
+  "comienza3":"Comienza",
+  "nosotros3":"nosotros",
+
+  "home-section2-title" : "¿Por qué elegirnos?",
+  "home-section2-option1a" : "Somos viajeros",
+  "home-section2-option1b" : "Como tú",
+  "home-section2-option2a" : "Somos creativos",
+  "home-section2-option2b" : "Para tí",
+  "home-section2-option3a" : "Somos profesionales",
+  "home-section2-option3b" : "a tu servicio",
+
+  "home-section3-title" : "Llevamos la comunicación entre tú y tu huesped un paso hacia el futuro",
+  "home-section3-text" : "Somos una plataforma diseñada para hacer que la experiencia de tu huesped vaya al siguiente nivel, vinculando su dispositivo con las atracciones más importantes cerca de tu propiedad a través de geolocalización. Además vincula tu propiedad a cientos de establecimientos comerciales.",
+
+  "home-section4-title" : "¿Que dicen de nosotros?",
+  "home-section4-name1" : "Johnny Doe",
+  "home-section4-opinion1" : "Lorem ipsum dolor sit amet consectetur. Ipsum adipiscing orci vulputate morbi pellentesque tortor hac duis. Integer egestas adipiscing massa sit nunc curabitur.",
+
+  "home-section4-name2" : "Johnny Doe",
+  "home-section4-opinion2" : "Lorem ipsum dolor sit amet consectetur. Ipsum adipiscing orci vulputate morbi pellentesque tortor hac duis. Integer egestas adipiscing massa sit nunc curabitur.",
+
+  "home-section5-title" : "¡Hablemos de cómo podemos transformar tu negocio!",
+
+  "form-title" : "Recibe mas información",
+  "form-name" : "Nombre",
+  "form-email" : "Email",
+  "form-botton" : "Enviar",
+  "form-text" : "o contactanos",
+
+  "esto es de Nosotros":"",
+  "about-title-h5-1": "Te brindamos",
+  "about-title-h2" : "la oportunidad",
+  "about-title-h5-2":"de estar como anfitrión",
+  "about-title-span":"¿Cómo lo hacemos?",
+
+  "about-who-we-are-title" :"Quienes somos?",
+  "about-who-we-are-description" : "Un grupo de profesionales aventureros que entregamos las mejores opciones para el descanso de tus visitantes. Con nuestra app podrán acceder a toda la información relevante de los lugares para vacacionar.",
+
+  "about-technology-title": "Tecnología",
+  "about-technology-description":"Contamos con el más avanzado respaldo tecnológico y sencillo de utilizar creado por nuestro equipo de líderes en sus áreas.",
+
+  "exclusive-services-title": "Exclusivos servicios",
+  "exclusive-services-subtititle": "Para convertirte en el mejor anfitrión",
+  "exclusive-service1-title":"Tablero Digital",
+  "exclusive-service1-description":"Crea un tablero digital para anuncios o instrucciones de tu propiedad fácil de actualizar desde cualquier lugar del mundo.",
+  "exclusive-service2-title":"Sitio web para tu propiedad",
+  "exclusive-service2-description":"En pocos y sencillos pasos crea un sitio web para promocionar tu propiedad.",
+  "exclusive-service3-title":"Vuélvete ecológico",
+  "exclusive-service3-description":"La solución XploreitBNB te ayuda para que tu propiedad sea más ecológica eliminando el uso innecesario de papeles. Adiós folletos e instrucciones impresas.",
+
+  "page-xperience":"",
+  "xperience-title1":"Descubre la",
+  "xperience-title2":"XPERIENCIABNB",
+  "xperience-title3":"y disfruta de los beneficios",
+  "xperience-title4":"¿Por que somos la mejor opcion para ti?",
+  "experience-section1-title":"Vive la experiencia",
+  "experience-section1-paragraph1":"Al contratar la app de XploreitBNB tus huéspedes tendrán acceso a información exclusiva y detallada para que su experiencia sea 100% recomendada.",
+  "experience-section1-paragraph2":" Entregando datos actualizados para los viajeros, obtendrán descuentos y alianzas con negocios locales: servicios, panoramas y recomendaciones del anfitrión existentes alrededor del lugar arrendado.",
+  "experience-button-text":"Descubre como",
+
+  "experience-section2-title":"Únete a la comunidad Xploreitbnb y vive una transformación en tu negocio.",
+  "experience-section2-h5":"Tendrás una atención personalizada al igual que los visitantes, simplemente te lucirás con tu arriendo y verás que cada vez te recomiendan más y más.",
+  "experience-button-start":"Iniciar aventura"
+
+
+  
+}

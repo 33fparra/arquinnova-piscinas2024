@@ -1,0 +1,47 @@
+.img-idioma{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: -20px;
+}
+.select-idioma{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+ #en{
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    .default-logo{
+        width: 160px !important;
+    }
+
+    .my-button{
+        background-color: #0088CC;
+        padding: 3px 25px !important; 
+        border-radius: 18px;
+    }
+
+    .my-button:hover{
+        transition: 0.7s;
+        background-color: transparent;
+        border: 1px solid #00527C;
+    }
+
+    .li-my-button{
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .li-my-button:hover > a{
+        color: #fff !important;
+    }
+
+    
+}
+
+

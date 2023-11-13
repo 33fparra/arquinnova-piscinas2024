@@ -1,0 +1,91 @@
+{
+  "TextoIdioma": "English",
+  "navbar1": "Home",
+  "navbar2": "About Us",
+  "navbar3": "Experience",
+  "navbar4": "Pricing",
+  "navbar5": "My Account",
+  "navbar6": "Sign up",
+
+  "slider1-text1": "A complete",
+  "slider1-text2": "ADVENTURE",
+  "slider1-text3": "for your visitors",
+  "comienza":"Get Started",
+  "nosotros": "About Us",
+
+  "slider2-text1": "Become the best",
+  "slider2-text2": "HOST",
+  "slider2-text3": "in your area",
+  "comienza2":"Get Started",
+  "nosotros2": "About Us",
+
+  "slider3-text1": "Become the best",
+  "slider3-text2": "HOST",
+  "slider3-text3": "in your area",
+  "comienza3":"Get Started",
+  "nosotros3": "About Us",
+
+  "home-section2-title": "Why Choose Us?",
+  "home-section2-option1a": "We are travelers",
+  "home-section2-option1b": "like you",
+  "home-section2-option2a": "We are creative",
+  "home-section2-option2b": "for you",
+  "home-section2-option3a": "We are professionals",
+  "home-section2-option3b": "at your service",
+
+  "home-section3-title": "We take communication between you and your guest one step towards the future",
+  "home-section3-text": "We are a platform designed to take your guest's experience to the next level, linking their device to the most important attractions near your property through geolocation. We also connect your property to hundreds of commercial establishments.",
+
+  "home-section4-title": "What do people say about us?",
+  "home-section4-name1": "Johnny Doe",
+  "home-section4-opinion1": "Lorem ipsum dolor sit amet consectetur. Ipsum adipiscing orci vulputate morbi pellentesque tortor hac duis. Integer egestas adipiscing massa sit nunc curabitur.",
+
+  "home-section4-name2": "Johnny Doe",
+  "home-section4-opinion2": "Lorem ipsum dolor sit amet consectetur. Ipsum adipiscing orci vulputate morbi pellentesque tortor hac duis. Integer egestas adipiscing massa sit nunc curabitur.",
+
+  "home-section5-title": "Let's talk about how we can transform your business!",
+
+  "form-title": "Get more information",
+  "form-name": "Name",
+  "form-email": "Email",
+  "form-button": "Send",
+  "form-text": "or contact us",
+
+  "esto es de Nosotros":"",
+  "about-title-h5-1": "We give you",
+  "about-title-h2" : "the tools",
+  "about-title-h5-2":"to be a super host",
+  "about-title-span":"How do we do it?",
+
+  "about-who-we-are-title" :"Who are we?",
+  "about-who-we-are-description" :  "We are a group of adventurous professionals delivering the best option for your visitors' rest. With this app, they can access all the relevant information about vacation spots.",
+
+  "about-technology-title": "Technology",
+  "about-technology-description": "We have a cutting-edge technology platform with a user-friendly interface created by our team of of professionals, all leaders in their respective fields.",
+
+  "exclusive-services-title": "Exclusive Services",
+  "exclusive-services-subtititle": "To become the best host",
+  "exclusive-service1-title":"Digital Board",
+  "exclusive-service1-description":"Build a digital board for your property announcements or instruction easy to update from anywhere.",
+  "exclusive-service2-title":"Your property website",
+  "exclusive-service2-description":"In just a few easy steps créate a web site to promote your short-term-rental property.",
+  "exclusive-service3-title":"Go green",
+  "exclusive-service3-description":"The XploreitBNB solution helps you to go green with your short term rental becoming paperless. Bye bye promotional panflets and printed instructions.",
+
+  "page-xperience":"",
+  "xperience-title1":"Discover the",
+  "xperience-title2":"XPERIENCEBNB",
+  "xperience-title3":"and enjoy the benefits",
+  "xperience-title4":"Why are we the best choice for you?",
+  "experience-section1-title":"Live the experience",
+  "experience-section1-paragraph1":"By using the XploreitBNB app, your guests will have access to exclusive and detailed information which will make their experience a highly recommended one.",
+  "experience-section1-paragraph2":"Providing updated data to travelers, they will receive discounts and other benefits from local businesses such as services, activities, and recommendations from existing hosts nearby the place rented.",
+  "experience-button-text":"Discover how",
+
+  "experience-section2-title":"Join the Xploreitbnb community and experience a transformation in your business.",
+  "experience-section2-h5":"You will receive personalized attention just like the visitors. You will shine with your rental, and it will be increasingly recommended.",
+  "experience-button-start":"Start the adventure"
+  
+
+  
+}
