@@ -48,3 +48,421 @@
     transform: translate3d(0,0,0);
     z-index: 10;
 }
+
+.frases{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    /* line-height: 42px; */
+    letter-spacing: 0em;
+    /* text-align: left; */
+    white-space: nowrap;
+}
+
+.titulo-frases{
+    font-family: Viga;
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 42px; */
+    letter-spacing: 0em;
+    /* text-align: left; */
+    white-space: nowrap;
+}
+
+.imageBack{
+    height: 100vh !important;
+}
+
+.swiper-slide{
+    cursor: default;
+}
+
+.seccion-carousel{
+    padding: 0 60px;
+}
+
+.texto{
+    font-family: Viga;
+    /* line-height: 40px; */
+    /* letter-spacing: 0em; */
+    color: white;
+    font-weight: 400;
+}
+
+.a{
+    font-size: 65px;
+}
+
+.c{
+    font-size: 60px;
+}
+
+.b{
+    font-size: 110px;
+    color:#00B5EE;
+}
+
+.d{
+    font-size: 55px;
+}
+
+.f{
+    font-size: 70px;
+}
+
+.bg-orange{
+    background-color: #F27228;
+    width: fit-content;
+    line-height: 1.2;
+}
+
+.espacio{
+    padding-left: 100px;  /* padding-left del navbar + 30 */
+    padding-right: 10px;
+    margin: 0;
+    transition: font-size 0.7s ease;
+}
+
+
+@media (max-width: 1350px) {
+    .a{
+        font-size: 50px;
+    }
+    
+    .c{
+        font-size: 45px;
+    }
+    
+    .b{
+        font-size: 95px;
+    }
+    
+    .d{
+        font-size: 40px;
+    }
+    
+    .f{
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .a{
+        font-size: 35px;
+    }
+    
+    .c{
+        font-size: 35px;
+    }
+    
+    .b{
+        font-size: 80px;
+    }
+    
+    .d{
+        font-size: 35px;
+    }
+    
+    .f{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .a{
+        font-size: 20px;
+    }
+    
+    .c{
+        font-size: 35px;
+    }
+    
+    .b{
+        font-size: 60px;
+    }
+    
+    .d{
+        font-size: 30px;
+    }
+    
+    .f{
+        font-size: 25px;
+    }
+    
+    .seccion-carousel{
+        padding: 0 60px;
+    }
+
+    .espacio{
+        padding-left: 30px;
+    }
+
+    .negocio{
+        padding: 0 35px !important;
+    }
+
+    .contactanos{
+        padding: 20px 50px 20px 20px !important;
+    }
+
+    .comunidad-titulo, .comunidad-descripcion{
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 550px) {
+ 
+    .b{
+        font-size: 55px;
+        width: 100%;
+    }
+
+    .a, .b, .c, .d, .f{
+        text-align: center;
+    }
+
+    .espacio{
+        padding-left: 0px;
+    }
+
+    .idk{
+        text-align: center !important;
+    }
+
+    .seccion-carousel{
+        padding: 0 20px;
+    }
+    
+    .negocio{
+        padding: 0 15px !important;
+    }
+
+    .contactanos{
+        padding: 20px !important;
+    }
+}
+
+.idk{
+    font-family: Viga;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #003366;
+}
+
+
+.comunidad-titulo{
+    color: #fff !important;
+    font-family: Viga;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.comunidad-descripcion{
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.somos{
+    font-family: Viga;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0em;
+    color: #F27228;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.hablanos{
+    display: flex; 
+    flex-flow: row wrap;
+    width: 100%;
+    
+}
+
+.hablanos div{
+    width: 50%;
+}
+
+.negocio{
+    background-color: #F27228;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.negocio h3{
+    color: #fff !important;
+    font-family: Viga;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 20px;
+}
+
+.contactanos{
+    /* padding: 20px; */
+    padding: 20px 100px 20px 30px;
+}
+
+
+.contactanos-titulo{
+    color: #F27228;
+    font-family: Viga;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.nombre, .email{
+    width: 100%;
+    height: 31px;
+    border-radius: 17px;
+    background-color: #fff;
+    color: #D93D1A;
+    border: 1px solid #D93D1A;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.nombre::placeholder, .email::placeholder{
+    color: #D93D1A;
+}
+
+.contactanos-enviar{
+    font-family: Open Sans;
+    font-size: 16px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    background-color: #F27228;
+    color: #fff;
+    box-shadow: 0px 9.5px 9.5px 0px #0000001A;
+}
+
+.o-con{
+    color: #D93D1A;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.correos{
+    color: #003366;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* .carrousel{
+    width: 500px;
+} */
+
+.avatars{
+    width: 147.86415100097656px;
+    height: 147.86415100097656px;
+    min-width: 130px;
+}
+
+.carousel-containers {
+    /* width: 100%; */
+    /* height: 500px; */
+    overflow: hidden;
+    /* position: relative; */
+    /* mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent); */
+}
+
+.carousel-descripcion{
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #000000;
+}
+
+.carousel-contenedor-avatar{
+    margin-right: 10px;
+}
+
+.carousel-slides {
+    display: flex;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.carousel-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-titulo{
+    color: #003366;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+@media (max-width: 800px) {
+    .hablanos{
+        flex-flow: column wrap;
+    }
+
+    .hablanos div{
+        width: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .doe{
+        gap:3rem
+    }
+}
+
+@media (max-width: 758px) {
+    .negocio h3, .contactanos-titulo{
+        text-align: center;
+    }
+
+    .somos{
+        text-align: center;
+        padding-left: 0;
+    }
+}

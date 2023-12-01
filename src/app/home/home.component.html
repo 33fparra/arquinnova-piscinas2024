@@ -1,68 +1,93 @@
- <!-- start section -->
- <section class="p-0">
-    <div class="swiper-container white-move mobileoff-fullscreen-top-space md-h-600px sm-h-500px" data-slider-options='{ "slidesPerView": 1, "loop": true, "pagination": { "el": ".swiper-pagination", "clickable": true }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav" }, "autoplay": { "delay": 4500, "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "effect": "slide" }'>
-        <div class="swiper-wrapper">
-            <!-- start slider item -->
-            <div class="swiper-slide cover-background" style="background-image:url('assets/images/home/arquinnova-home-2024.png');">
-                <div class="overlay-bg bg-gradient-dark-slate-blue"></div>
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 col-xl-6 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-                            <p class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom">Delivering beautiful digital products</p>
-                            <h2 class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom">Provide solutions to small agency</h2>
-                            <div class="d-inline-block">
-                                <a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-fancy btn-medium btn-gradient-sky-blue-pink margin-30px-right xs-margin-15px-bottom">Purchase now</a>
-                                <a href="our-process.html" class="btn btn-link btn-large text-white top-minus-5px font-weight-400">How we work</a>
-                            </div>
-                        </div>
+<app-loading *ngIf="cargando"></app-loading>
+
+<section class="p-0 m-0 imageBack">
+    <div class="p-0 m-0 ontainer-fluid position-relative imageBack">
+      <div class="p-0 row imageBack"> <!--swiper-container-->
+        
+  
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <div class="cover-background" style="background-image:url('assets/images/home/home-1-arquinnova.jpg'); height: 100vh;">
+         
+              <div class="opacity-light overlay-bg bg-gradient-dark-slate-blue"></div>
+              <!-- <div class="opacity-light opacity-4 bg-extra-dark-gray"></div> -->
+              <div class="h-100" style="margin: 0 0 !important;">
+                <!-- <div class="container h-100"> -->
+                <div class="row justify-content-start h-100">
+                  <div
+                    class="col-12 col-lgxl-7 position-relative d-flex flex-column gap-3 justify-content-center h-100 text-left">
+                    <!--                   <h3 class="texto c espacio">{{'slider1-text1' | translate }}</h3>
+                    <h3 class="texto c espacio">{{'slider1-text3' | translate }}</h3> -->
+
+                    <h2 class="texto c espacio">SOMOS</h2>
+                    <h1 class="texto b espacio">FABRICA</h1>
+                    <h3 class="texto c espacio">DE PISCINAS</h3>
+                    <div class="btn-dual espacio" style="margin-top: 5rem">
+                      
+                      <a href="our-services.html"
+                        class="btn btn-fancy btn-medium btn-transparent-white d-table d-sm-inline-block xs-margin-auto-lr">COTIZA YA!</a>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- end slider item -->
-            <!-- start slider item -->
-            <div class="swiper-slide cover-background" style="background-image:url('assets/images/home/home-2-arquinnova.jpg');">
-                <div class="overlay-bg bg-gradient-dark-slate-blue"></div>
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 col-xl-6 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-                            <p class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom">Delivering beautiful digital products</p>
-                            <h2 class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom">Start your online business today</h2>
-                            <div class="d-inline-block">
-                                <a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-fancy btn-medium btn-gradient-sky-blue-pink margin-30px-right xs-margin-15px-bottom">Purchase now</a>
-                                <a href="our-process.html" class="btn btn-link btn-large text-white top-minus-5px font-weight-400">How we work</a>
-                            </div>
-                        </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="cover-background" style="background-image:url('assets/images/home/home-2-arquinnova.jpg'); height: 100vh;">
+              <div class="opacity-light overlay-bg bg-gradient-dark-slate-blue"></div>
+              <div class="h-100">
+                <div class="row justify-content-start h-100">
+                  <div
+                    class="col-12 col-lgxl-7 position-relative d-flex flex-column gap-3 justify-content-center h-100 text-left">
+  
+                    <h2 class="texto c espacio">INSTALACIÓN</h2>
+                    <h1 class="texto b espacio">DE 3 A 5 DÍAS</h1>
+                    <!-- <h3 class="texto c espacio">{{this.slider1text3}}</h3> -->
+                    <div class="btn-dual espacio" style="margin-top: 5rem">
+                      
+                      <a href="our-services.html"
+                        class="btn btn-fancy btn-medium btn-transparent-white d-table d-sm-inline-block xs-margin-auto-lr">COMPRA YA!</a>
+                    
+           
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- end slider item -->
-            <!-- start slider item -->
-            <div class="swiper-slide cover-background" style="background-image:url('https://via.placeholder.com/1920x900');">
-                <div class="overlay-bg bg-gradient-dark-slate-blue"></div>
-                <div class="container h-100">
-                    <div class="row h-100">
-                        <div class="col-12 col-xl-6 col-lg-7 col-sm-8 h-100 d-flex justify-content-center flex-column position-relative">
-                            <p class="alt-font text-extra-medium text-white opacity-7 font-weight-300 margin-40px-bottom xs-margin-20px-bottom">Delivering beautiful digital products</p>
-                            <h2 class="alt-font text-shadow-double-large font-weight-600 text-white margin-55px-bottom w-90 md-w-100 md-no-text-shadow xs-margin-35px-bottom">The best way to promote business</h2>
-                            <div class="d-inline-block">
-                                <a href="https://1.envato.market/AL7Oj" target="_blank" class="btn btn-fancy btn-medium btn-gradient-sky-blue-pink margin-30px-right xs-margin-15px-bottom">Purchase now</a>
-                                <a href="our-process.html" class="btn btn-link btn-large text-white top-minus-5px font-weight-400">How we work</a>
-                            </div>
-                        </div>
+  
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="cover-background" style="background-image:url('assets/images/home/home-3-arquinnova.jpg'); height: 100vh;">
+              <div class="opacity-light overlay-bg bg-gradient-dark-slate-blue"></div>
+              <div class="h-100">
+                <div class="row justify-content-start h-100">
+                  <div
+                    class="col-12 col-lgxl-7 position-relative d-flex flex-column gap-3 justify-content-center h-100 text-left">
+                    <h2 class="texto c espacio">OFERTA DE</h2>
+                    <h1 class="texto b espacio">PISCINA</h1>
+                    <h3 class="texto c espacio">+ JACUZZI</h3>
+                    <div class="btn-dual espacio" style="margin-top: 5rem">
+                      
+                      <a href="our-services.html"
+                        class="btn btn-fancy btn-medium btn-transparent-white d-table d-sm-inline-block xs-margin-auto-lr">COMPRA AHORA!</a>
+                   
+  
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-            <!-- end slider item -->                          
-        </div>
-        <!-- start slider pagination -->
-        <div class="swiper-pagination swiper-light-pagination"></div>
-        <!-- end slider pagination -->
-        <!-- start slider navigation -->
-    
-        <!-- end slider navigation -->
+  
+          </ng-template>
+        </owl-carousel-o>
+      </div>
     </div>
-</section>
-<!-- end section -->
+  </section>
+
+
+
+
+ 
 <!-- start section -->
 <section class="big-section wow animate__fadeIn">
     <div class="container">
@@ -157,7 +182,7 @@
                             <div class="swiper-slide interactive-banners-style-07">
                                 <div class="interactive-banners-box bg-dark-slate-blue">
                                     <div class="interactive-banners-box-image">
-                                        <img src="https://via.placeholder.com/915x716" alt=""/>
+                                        <img src="assets/images/home/home-4-arquinnova.jpg" alt=""/>
                                         <div class="overlay-bg bg-gradient-dark-slate-blue-transparent"></div>
                                     </div>
                                     <div class="fancy-text-content padding-55px-lr md-padding-55px-lr xs-padding-30px-lr">
@@ -172,42 +197,12 @@
                             <div class="swiper-slide interactive-banners-style-07">
                                 <div class="interactive-banners-box bg-dark-slate-blue">
                                     <div class="interactive-banners-box-image">
-                                        <img src="https://via.placeholder.com/915x716" alt=""/>
+                                        <img src="assets/images/home/home-5-arquinnova.jpg" alt=""/>
                                         <div class="overlay-bg bg-gradient-dark-slate-blue-transparent"></div>
                                     </div>
                                     <div class="fancy-text-content padding-55px-lr md-padding-55px-lr xs-padding-30px-lr">
                                         <span class="text-very-small letter-spacing-1px line-height-16px alt-font border-radius-2px text-white text-uppercase padding-5px-tb padding-15px-lr bg-neon-blue margin-20px-bottom d-inline-block">Unique</span>
                                         <div class="alt-font text-extra-large text-white margin-10px-bottom w-80 xl-w-90 lg-w-80 md-w-90 sm-w-60 xs-w-100">We are delivering beautiful products</div>
-                                        <a href="about-us.html" class="btn btn-fancy btn-very-small btn-white margin-15px-top btn-round-edge-small">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end interactive banner item -->
-                            <!-- start interactive banner item -->
-                            <div class="swiper-slide interactive-banners-style-07">
-                                <div class="interactive-banners-box bg-dark-slate-blue">
-                                    <div class="interactive-banners-box-image">
-                                        <img src="https://via.placeholder.com/915x716" alt=""/>
-                                        <div class="overlay-bg bg-gradient-dark-slate-blue-transparent"></div>
-                                    </div>
-                                    <div class="fancy-text-content padding-55px-lr md-padding-55px-lr xs-padding-30px-lr">
-                                        <span class="text-very-small letter-spacing-1px line-height-16px alt-font border-radius-2px text-white text-uppercase padding-5px-tb padding-15px-lr bg-neon-blue margin-20px-bottom d-inline-block">Responsive</span>
-                                        <div class="alt-font text-extra-large text-white margin-10px-bottom w-80 xl-w-90 lg-w-80 md-w-90 sm-w-60 xs-w-100">True responsiveness modern responsive</div>
-                                        <a href="about-us.html" class="btn btn-fancy btn-very-small btn-white margin-15px-top btn-round-edge-small">Learn more</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end interactive banner item -->
-                            <!-- start interactive banner item -->
-                            <div class="swiper-slide interactive-banners-style-07">
-                                <div class="interactive-banners-box bg-dark-slate-blue">
-                                    <div class="interactive-banners-box-image">
-                                        <img src="https://via.placeholder.com/915x716" alt=""/>
-                                        <div class="overlay-bg bg-gradient-dark-slate-blue-transparent"></div>
-                                    </div>
-                                    <div class="fancy-text-content padding-55px-lr md-padding-55px-lr xs-padding-30px-lr">
-                                        <span class="text-very-small letter-spacing-1px line-height-16px alt-font border-radius-2px text-white text-uppercase padding-5px-tb padding-15px-lr bg-neon-blue margin-20px-bottom d-inline-block">Modern</span>
-                                        <div class="alt-font text-extra-large text-white margin-10px-bottom w-80 xl-w-90 lg-w-80 md-w-90 sm-w-60 xs-w-100">Beautiful and modern latest page builder</div>
                                         <a href="about-us.html" class="btn btn-fancy btn-very-small btn-white margin-15px-top btn-round-edge-small">Learn more</a>
                                     </div>
                                 </div>

@@ -12,6 +12,16 @@ import { PromiseComponent } from './promise/promise.component';
 import { CartComponent } from './cart/cart.component';
 import { PromoComponent } from './promo/promo.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ModeloVitacuraComponent } from './products/modelo-vitacura/modelo-vitacura.component';
+import { ModeloCuracaviComponent } from './products/modelo-curacavi/modelo-curacavi.component';
+import { ModeloPuconComponent } from './products/modelo-pucon/modelo-pucon.component';
+import { ModeloFutaleufuComponent } from './products/modelo-futaleufu/modelo-futaleufu.component';
+import { ModeloNautilusComponent } from './products/modelo-nautilus/modelo-nautilus.component';
+import { BordesPiscinaComponent } from './products/bordes-piscina/bordes-piscina.component';
+import { JacuzziHotTubeComponent } from './products/jacuzzi-hot-tube/jacuzzi-hot-tube.component';
+import { LoadingComponent } from './utils/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +34,21 @@ import { AboutUsComponent } from './about-us/about-us.component';
     PromiseComponent,
     CartComponent,
     PromoComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ModeloVitacuraComponent,
+    ModeloCuracaviComponent,
+    ModeloPuconComponent,
+    ModeloFutaleufuComponent,
+    ModeloNautilusComponent,
+    BordesPiscinaComponent,
+    JacuzziHotTubeComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
